@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.card{
+  background-color: rgb(56, 56, 218);
+  width: 50vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  
+  margin-top: 2rem;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 8px;
+
+}
+.inputField{
+  height: 2rem;
+  width: 10rem;
+  border-radius: 4px;
+  background-color: rgb(194, 213, 241);
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  /* padding-left: 3.3rem; */
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+.location{
+  text-align: center;
+}
+.fas{
+  color: aliceblue;
+  margin: 0.5rem;
+  
+}
+.temp{
+  margin-left:0.4rem ;
+  text-align: center;
+ 
+}
+
+.tempmin_max{
+  font-size: larger;
+  padding-top: 1rem;
+  text-align: center;
+}
